@@ -4,13 +4,13 @@
       <img class="productimage" [src]="currentImage" alt="{{product().name}}">
     </a>
     <div class="buttons">
-      <button class="prevbutton" (click)="prev()"></button>
-      <button class="nextbutton" (click)="next()"></button>
+      <button class="prevbutton" (click)="prev()"><</button>
+      <button class="nextbutton" (click)="next()">></button>
     </div>
     <div class="description">
       <h2>{{product().name}}</h2>
-      <p>{{product().rating}}</p>
-      <p>{{product().price}}</p>
+      <p>⭐: {{product().rating}}</p>
+      <p>{{ product().price.toLocaleString('de-DE') }} ₸</p>
     </div>
     <details>
       <summary>Description</summary>

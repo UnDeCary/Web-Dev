@@ -52,6 +52,8 @@ details p{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 20px;
+  gap: 10px;
 }
 .buttons button {
   flex: 1;
@@ -62,6 +64,7 @@ details p{
 }
 .features {
   display: flex;
+  gap: 10px;
 }
 .features button {
   flex: 1;
