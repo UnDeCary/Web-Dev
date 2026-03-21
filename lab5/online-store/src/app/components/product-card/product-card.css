@@ -60,7 +60,7 @@ details p{
 }
 .thumbnails {
   position: relative;
-  display: flex; gap: 5px; margin-top: 5px; overflow-x: auto;"
+  display: flex; gap: 5px; margin-top: 5px; overflow-x: auto;
 }
 .features {
   display: flex;
