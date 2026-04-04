@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/shop-back/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/shop_back" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (lab8)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.14 (lab8)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
